@@ -2,6 +2,10 @@ cmake_minimum_required(VERSION 3.12...3.20)
 project(raptor)
 list(APPEND CMAKE_MODULE_PATH ${CMAKE_SOURCE_DIR}/cmake)
 
+find_package(Git REQUIRED)
+execute_process(COMMAND ${GIT_EXECUTABLE} submodule update --init --recursive
+                        WORKING_DIRECTORY ${CMAKE_SOURCE_DIR})
+
 enable_language(CXX)
 set(CMAKE_CXX_STANDARD 11)
 
