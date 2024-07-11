@@ -1,4 +1,4 @@
-#include "raptor/core/par_matrix.hpp"
+#include "raptor-sparse.hpp"
 using namespace raptor;
 
 #define short_cutoff 500

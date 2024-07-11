@@ -8,8 +8,7 @@
 
 #ifndef RAPTOR_TEST_PAR_COMPARE_HPP
 #define RAPTOR_TEST_PAR_COMPARE_HPP
-#include "raptor/core/types.hpp"
-#include "raptor/core/par_matrix.hpp"
+#include "raptor-sparse.hpp"
 
 namespace raptor {
 void compare(ParCSRMatrix* A, ParCSRMatrix* A_rap)

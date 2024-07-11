@@ -3,9 +3,7 @@
 
 #include <vector>
 
-#include "raptor/core/types.hpp"
-#include "raptor/core/matrix.hpp"
-#include "raptor/core/vector.hpp"
+#include "raptor-sparse.hpp"
 
 namespace raptor {
 

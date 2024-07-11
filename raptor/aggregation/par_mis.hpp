@@ -3,8 +3,7 @@
 #ifndef RAPTOR_AGGREGATION_PAR_MIS_HPP
 #define RAPTOR_AGGREGATION_PAR_MIS_HPP
 
-#include "raptor/core/types.hpp"
-#include "raptor/core/par_matrix.hpp"
+#include "raptor-sparse.hpp"
 
 namespace raptor {
 

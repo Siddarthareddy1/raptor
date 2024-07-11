@@ -3,8 +3,7 @@
 #ifndef RAPTOR_AGGREGATION_PAR_CANDIDATES_HPP
 #define RAPTOR_AGGREGATION_PAR_CANDIDATES_HPP
 
-#include "raptor/core/types.hpp"
-#include "raptor/core/par_matrix.hpp"
+#include "raptor-sparse.hpp"
 
 namespace raptor {
 // TODO -- currently only accepts constant vector

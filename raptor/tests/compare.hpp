@@ -9,8 +9,7 @@
 #ifndef RAPTOR_TEST_COMPARE_HPP
 #define RAPTOR_TEST_COMPARE_HPP
 
-#include "raptor/core/types.hpp"
-#include "raptor/core/matrix.hpp"
+#include "raptor-sparse.hpp"
 
 namespace raptor {
 void compare(CSRMatrix* A, CSRMatrix* A_rap)

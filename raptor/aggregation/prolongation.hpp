@@ -3,9 +3,7 @@
 #ifndef RAPTOR_AGGREGATION_PROLONGATION_HPP
 #define RAPTOR_AGGREGATION_PROLONGATION_HPP
 
-#include "raptor/core/types.hpp"
-#include "raptor/core/matrix.hpp"
-#include "raptor/core/vector.hpp"
+#include "raptor-sparse.hpp"
 
 namespace raptor {
 CSRMatrix* jacobi_prolongation(CSRMatrix* A, CSRMatrix* T, double omega = 4.0/3, 

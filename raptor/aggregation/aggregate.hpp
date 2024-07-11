@@ -3,8 +3,7 @@
 #ifndef RAPTOR_AGGREGATION_AGGREGATE_HPP
 #define RAPTOR_AGGREGATION_AGGREGATE_HPP
 
-#include "raptor/core/types.hpp"
-#include "raptor/core/matrix.hpp"
+#include "raptor-sparse.hpp"
 #include "mis.hpp"
 
 namespace raptor {

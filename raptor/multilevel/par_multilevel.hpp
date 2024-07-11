@@ -3,11 +3,9 @@
 #ifndef RAPTOR_ML_PARMULTILEVEL_H
 #define RAPTOR_ML_PARMULTILEVEL_H
 
-#include "raptor/core/types.hpp"
-#include "raptor/core/par_matrix.hpp"
-#include "raptor/core/par_vector.hpp"
+#include "raptor-sparse.hpp"
 #include "raptor/multilevel/par_level.hpp"
-#include "raptor/util/linalg/par_relax.hpp"
+#include "raptor/precondition/par_relax.hpp"
 #include "raptor/ruge_stuben/par_interpolation.hpp"
 #include "raptor/ruge_stuben/par_cf_splitting.hpp"
 

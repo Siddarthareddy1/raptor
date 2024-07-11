@@ -3,9 +3,7 @@
 #ifndef RAPTOR_AGGREGATION_PAR_PROLONGATION_HPP
 #define RAPTOR_AGGREGATION_PAR_PROLONGATION_HPP
 
-#include "raptor/core/types.hpp"
-#include "raptor/core/par_matrix.hpp"
-#include "raptor/core/par_vector.hpp"
+#include "raptor-sparse.hpp"
 
 namespace raptor {
 ParCSRMatrix* jacobi_prolongation(ParCSRMatrix* A, ParCSRMatrix* T, bool tap_comm = false,
